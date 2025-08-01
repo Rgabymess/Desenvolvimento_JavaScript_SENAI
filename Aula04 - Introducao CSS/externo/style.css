@@ -1,0 +1,14 @@
+body{
+    background-color: #212830 ;
+}
+
+header {
+    background-color: #151B23;
+}
+header > h1{
+    color: #D1D7E0;
+}
+
+header > nav > a{
+    text-decoration: none;
+}
