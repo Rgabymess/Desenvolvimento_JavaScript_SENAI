@@ -1,8 +1,10 @@
 main{
+    margin: 20px auto;
     border: 0.5px solid rgba(0, 0, 0, 0.068);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.158);
     border-radius: 10px;
     max-width: 1000px;
+    
     
 }
 
