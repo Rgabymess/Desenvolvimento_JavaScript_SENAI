@@ -1,4 +1,4 @@
-function mostrarResultado{
+function mostrarResultado(){
 
     let valorGasto = parseFloat(document.querySelector("#valorGasto").value)
     let metodoPagamento = document.querySelector("#metodoPagamento").value
