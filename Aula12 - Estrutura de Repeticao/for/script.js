@@ -1,8 +1,15 @@
-const numero = 5
-
-
-
-
-for (let i = 1; i > 10; i++){
-    console.log(`${numero} x ${i} = ${numero*i}`)
+const input = require("prompt-sync")();
+soma = 0
+Verificarimpar = numero
+for(let i = 0; i <= 3; i++){
+    let numero = parseInt(input("Digite um valor: "))
+    if (numero % 2 === 1 && numero/3 === 0){
+        soma += numero
+        console.log(numero)
+    } else{
+        console.log("Não é possivel somar este numero")
+    }
 }
+
+console.log(soma);
+
